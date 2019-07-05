@@ -300,10 +300,10 @@ if(nchar(as.character(Series_Data$YoutubeURL1)) > 0){
 		sep = "", collapse = NULL)
 } else {YoutubeURL1 = ""}
 
-#YoutubeURL1 Logic
+#YoutubeURL2 Logic
 if(nchar(as.character(Series_Data$YoutubeURL2)) > 0){
 
-		YoutubeURL1 = paste(
+		YoutubeURL2 = paste(
 		'<div class="videocontainer">',
 		'<div>',
 		'<iframe width="560" height="315" src="',
@@ -317,10 +317,10 @@ if(nchar(as.character(Series_Data$YoutubeURL2)) > 0){
 		sep = "", collapse = NULL)
 } else {YoutubeURL2 = ""}
 
-#YoutubeURL1 Logic
+#YoutubeURL3 Logic
 if(nchar(as.character(Series_Data$YoutubeURL3)) > 0){
 
-		YoutubeURL1 = paste(
+		YoutubeURL3 = paste(
 		'<div class="videocontainer">',
 		'<div>',
 		'<iframe width="560" height="315" src="',
